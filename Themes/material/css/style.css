@@ -1,0 +1,33 @@
+.frontpage .main{padding:400px 0 0;}
+.main .content{background:#fff;padding:15px 0;}
+header .navbar{font-family:'thaisans_neueregular';font-size:16px;padding:15 0 0;color:#fff;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out;}
+/*header .navbar a{color:#fff;}*/
+header .navbar .navbar-brand{font-size:20px;height:inherit;}
+header .navbar .navbar-brand > img{display:initial;height:35px;}
+header .navbar.downed{background-color:#3f51b5;padding:0;font-size:14px;-moz-box-shadow:0 5px 9px rgba(0,0,0,0.3);-webkit-box-shadow:0 5px 9px rgba(0,0,0,0.3);box-shadow:0 5px 9px rgba(0,0,0,0.3);}
+header .navbar.downed .navbar-brand > img{height:30px;}
+.scene{padding:0;margin:0;height:100%;overflow:hidden;}
+.banner, .banner-blur{position:fixed;z-index:-1;width:100%;height:200px;}
+.frontpage .banner, .frontpage .banner-blur{height:400px;}
+.banner-blur{background-color:#337ab7;opacity:0;}
+.banner .layer{width:120%;height:120%;}
+.banner .bg{margin-left:-5%;margin-top:-30px;background-image:url('bg.jpg');background-size:cover;background-position:50% 50%;}
+.banner .text-main{font-size:3.5em;color:#e91e63;text-shadow:rgba(255, 255, 255, 0.6) 0px 1px 2px;margin-top:90px;margin-left:100px;}
+.frontpage .banner .text-main{font-size:5em;margin-top:150px;}
+.banner .text-secondary{font-size:1.7em;color:#333;text-shadow:rgba(255, 255, 255, 0.6) 0px 1px 2px;margin-top:140px;margin-left:100px;}
+.frontpage .banner .text-secondary{font-size:2em;margin-top:220px;}
+.navbar-toggle{border:#FFFFFF 1px solid;}
+.navbar-toggle .icon-bar{background-color:#FFFFFF;}
+@media (max-width:768px){.frontpage .banner, .frontpage .banner-blur{height:300px;}
+  .banner .text-main, .frontpage .banner .text-main{font-size:3em;margin-left:20px;margin-top:120px;}
+  .banner .text-secondary, .frontpage .banner .text-secondary{font-size:1.5em;margin-left:20px;margin-top:170px;}
+  .frontpage .main{padding:300px 0 0;}
+  .course{padding:15px 0;display:table;width:100%;}
+  .slide-carousel{padding:0;}
+  header .navbar{background-color:#337ab7;}
+  body > .wrap, body > .footer {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=0.60);
+    -webkit-filter: grayscale(0.60);
+    filter: grayscale(0.60);
+  }
+}

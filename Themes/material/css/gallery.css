@@ -1,0 +1,99 @@
+.img-header{ border-bottom: 1px dashed #DDD; margin-bottom: 5px;}
+.gall_wrap{
+    padding: 3px;
+}
+.col-pad-0{
+    padding: 0;
+}
+.col-inner{
+    margin: 7px ; padding: 2px; border: 1px dashed #DDD; background: #FFF;
+    -webkit-box-shadow: 9px 14px 6px -8px rgba(0,0,0,0.29);
+    -moz-box-shadow: 9px 14px 6px -8px rgba(0,0,0,0.29);
+    box-shadow: 9px 14px 6px -8px rgba(0,0,0,0.29);
+}
+.gal_cover{
+    height: 250px; overflow-y: hidden;
+}
+.gal_img{
+    overflow-y: hidden;
+}
+.gal_title{
+    height: 65px;  padding: 4px 10px; font-family: Mon_nor;
+}
+.gal_title a{ font-weight: bold; text-align: center; color: #454545; display: block; text-align: center; text-decoration: none;}
+.gall_box:hover .gal_title a{
+    color: #000;
+}
+.gall_wrap h2 a{ padding: 5px; font-weight: bold; font-family: Mon_bld !important; text-decoration: none; color: #666;}
+.gall_info{ padding: 2px; text-align: center; font-size: 12px; color: #666;}
+
+.gall_des{
+    padding: 10px;
+}
+.gall_des h1{ padding: 5px; font-family: Mon_bld !important; margin: 0; margin-bottom: 2px;}
+.col-inner{
+    margin: 7px ; padding: 2px; border: 1px dashed #DDD; background: #FFF;
+    -webkit-box-shadow: 9px 14px 6px -8px rgba(0,0,0,0.29);
+    -moz-box-shadow: 9px 14px 6px -8px rgba(0,0,0,0.29);
+    box-shadow: 9px 14px 6px -8px rgba(0,0,0,0.29);
+}
+.gallery_detail {
+    padding: 5px 10px;
+}
+.gallery_detail .head {
+    padding: 5px;
+    padding-bottom: 2px;
+    margin: 0;
+    margin-bottom: 2px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #323232;
+}
+.my_bread{padding: 5px 10px !important; margin: 0; background: #FAFAFA;  color: #000000;text-decoration: none;}
+.my_bread a{ font-weight: bold; text-decoration: none;}
+.head_color {
+    color: #000000;
+    /*text-decoration: none;*/
+}
+.head_color a:hover a:focus {
+    color: #000000;
+    /*text-decoration: none;*/
+}
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#gallary{
+    padding: 5px 10px;
+}
+#gallary .head{ padding: 5px; padding-bottom: 2px; margin: 0; margin-bottom: 2px; font-size: 24px; font-weight: bold; border-bottom: 2px solid #323232; }
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 25.5%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
